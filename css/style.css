@@ -1,0 +1,154 @@
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+body {
+  color: #3a3c63;
+  font-family: "Lusitana", serif;
+  font-size: xx-large;
+}
+
+.acceuil-page {
+  background-color: #f1f2f3;
+}
+
+.list-choice li {
+  display: inline-block;
+  padding: 5px;
+}
+
+.btn-choice {
+  border: thin #f1f2f3 solid;
+  background-color: #f1f2f3;
+  border-radius: 5px;
+  font-family: "Playball", serif;
+}
+
+.navigation {
+  display: flex;
+  justify-content: center;
+  color: #a295c6;
+}
+
+.link-nav {
+  text-decoration: none;
+  color: #a295c6;
+}
+
+.link-nav:hover {
+  color: #3a3c63;
+}
+
+h1,
+h2 {
+  font-family: "Playball", serif;
+  color: #3a3c63;
+}
+
+h3 {
+  font-family: "Playball", serif;
+  color: #3a3c63;
+}
+
+.section-convertisseur {
+  border: #3a3c63 solid 2px;
+  background-color: #a295c6;
+  border-radius: 5px;
+  color: #4271b1;
+  padding: 50px;
+  margin: 50px 0;
+}
+
+.form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 5px;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+label {
+  display: inline-block;
+  padding: 5px;
+  font-family: "Playball", serif;
+  color: #3a3c63;
+}
+
+input,
+textarea,
+select,
+option {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  font-family: "Lusitana", serif;
+  color: #2791ae;
+  margin: 5px;
+  padding: 5px;
+  border: thin #2791ae solid;
+}
+
+input:focus {
+  background: #4271b1;
+}
+
+select:focus {
+  background: #4271b1;
+}
+
+.button {
+  border: #4271b1 solid 2px;
+  border-radius: 5px;
+  color: #f1f2f3;
+  background-color: #4271b1;
+  text-align: center;
+  margin: 10px;
+}
+
+.button:hover {
+  color: #2791ae;
+}
+
+.backToMenu {
+  border: #4271b1 solid 2px;
+  border-radius: 5px;
+  color: #f1f2f3;
+  background-color: #4271b1;
+  padding-left: 5px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.backToMenu:hover {
+  color: #f3ac23;
+}
+
+.divResult {
+  color: white;
+  font-family: "Lusitana", serif;
+  font-size: xx-large;
+  font-style: italic;
+  font-weight: bold;
+  border-radius: 10px;
+  margin-top: 20px;
+  padding: 50px 50px;
+}
+
+.divError {
+  color: white;
+  font-family: "Lusitana", serif;
+  font-size: xx-large;
+  font-style: italic;
+  font-weight: bold;
+  border-radius: 10px;
+  margin-top: 20px;
+  padding: 50px 50px;
+}
